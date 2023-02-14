@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bf1454c-8467-47a3-b994-5a5d18c2660b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tau/rest/another_data_rest_service/AnotherDataRestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tau/beans/EmotionalRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tau/enums/Energy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tau/enums/Season.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tau/enums/Sleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tau/enums/Weather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tau/rest/journal/JournalRestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tau/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tau/rest/data_rest_service/DataRestService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +37,18 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SB-WebServer" type="f1a62948:ProjectNode" />
+                <item name="SpringBootWebServer" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SpringBootWebServer" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SpringBootWebServer" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -44,6 +61,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -64,7 +82,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Rscot/git/SpringBoot/SpringBootWebServer"
+    "last_opened_file_path": "C:/Users/Rscot/git/SpringBoot/SpringBootWebServer",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
   <component name="RunManager" selected="Application.com.tau.application.Application">
@@ -82,8 +101,10 @@
       </method>
     </configuration>
     <configuration name="com.tau.application.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.tau.application.Application" />
-      <module name="SB-WebServer.main" />
+      <module name="SpringBootWebServer.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tau.application.*" />
@@ -138,8 +159,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.tau.application.Application" />
         <item itemvalue="Gradle.SB-WebServer [build]" />
+        <item itemvalue="Application.com.tau.application.Application" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Gradle.SB-WebServer [clean]" />
       </list>
